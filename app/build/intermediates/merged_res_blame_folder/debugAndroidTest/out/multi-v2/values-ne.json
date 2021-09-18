@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Adam\\AndroidStudioProjects\\MVICaseStudy\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ne\\values-ne.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adam\\.gradle\\caches\\transforms-3\\5dbe843be5dd509d431e5fe548eb087a\\transformed\\core-1.6.0\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "965",
+                        "endColumns": "100",
+                        "endOffsets": "1061"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Adam\\.gradle\\caches\\transforms-3\\8611bf9ecfdda43539b331e85299b1e5\\transformed\\jetified-ui-1.0.0-rc01\\res\\values-ne\\values-ne.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,204,294,388,470,583,670,756,822,888,965,1033",
+                        "endColumns": "98,89,93,81,112,86,85,65,65,76,67,119",
+                        "endOffsets": "199,289,383,465,578,665,751,817,883,960,1028,1148"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,204,294,388,470,583,670,756,822,888,1066,1134",
+                        "endColumns": "98,89,93,81,112,86,85,65,65,76,67,119",
+                        "endOffsets": "199,289,383,465,578,665,751,817,883,960,1129,1249"
+                    }
+                }
+            ]
+        }
+    ]
+}

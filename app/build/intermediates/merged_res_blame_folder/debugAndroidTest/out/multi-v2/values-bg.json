@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Adam\\AndroidStudioProjects\\MVICaseStudy\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-bg\\values-bg.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Adam\\.gradle\\caches\\transforms-3\\8611bf9ecfdda43539b331e85299b1e5\\transformed\\jetified-ui-1.0.0-rc01\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,301,404,480,590,681,765,832,898,970,1039",
+                        "endColumns": "102,92,102,75,109,90,83,66,65,71,68,120",
+                        "endOffsets": "203,296,399,475,585,676,760,827,893,965,1034,1155"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,13,14",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,301,404,480,590,681,765,832,898,1071,1140",
+                        "endColumns": "102,92,102,75,109,90,83,66,65,71,68,120",
+                        "endOffsets": "203,296,399,475,585,676,760,827,893,965,1135,1256"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Adam\\.gradle\\caches\\transforms-3\\5dbe843be5dd509d431e5fe548eb087a\\transformed\\core-1.6.0\\res\\values-bg\\values-bg.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "12",
+                        "startColumns": "4",
+                        "startOffsets": "970",
+                        "endColumns": "100",
+                        "endOffsets": "1066"
+                    }
+                }
+            ]
+        }
+    ]
+}

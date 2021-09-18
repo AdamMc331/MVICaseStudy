@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 7.0.0-beta05" type="incidents">
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of com.google.android.material:material than 1.2.1 is available: 1.4.0">
+        <location
+            file="$APP/build.gradle"
+            line="55"
+            column="20"
+            startOffset="1358"
+            endLine="55"
+            endColumn="99"
+            endOffset="1437"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material:material than 1.0.0-beta09 is available: 1.0.0-rc01">
+        <location
+            file="$APP/build.gradle"
+            line="57"
+            column="20"
+            startOffset="1519"
+            endLine="57"
+            endColumn="72"
+            endOffset="1571"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.0.0-beta09 is available: 1.0.0-rc01">
+        <location
+            file="$APP/build.gradle"
+            line="58"
+            column="20"
+            startOffset="1592"
+            endLine="58"
+            endColumn="68"
+            endOffset="1640"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.ui:ui-test-junit4 than 1.0.0-beta09 is available: 1.0.0-rc01">
+        <location
+            file="$APP/build.gradle"
+            line="67"
+            column="31"
+            startOffset="2392"
+            endLine="67"
+            endColumn="83"
+            endOffset="2444"/>
+    </incident>
+
+</incidents>

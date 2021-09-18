@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.adammcneilly.mvicasestudy.data.InMemoryPreferenceServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-07-06T01:14:46" hostname="DESKTOP-5G8V4DF" time="0.078">
+  <properties/>
+  <testcase name="fetchPreferences" classname="com.adammcneilly.mvicasestudy.data.InMemoryPreferenceServiceTest" time="0.078"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

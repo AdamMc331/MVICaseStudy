@@ -1,0 +1,2 @@
+com/example/mvicasestudy/test/BuildConfig.java
+ com.example.mvicasestudy.test.BuildConfig

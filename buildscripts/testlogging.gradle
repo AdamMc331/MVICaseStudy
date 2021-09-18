@@ -1,0 +1,41 @@
+tasks.withType(Test) {
+    def outputCache = new LinkedList<String>()
+
+    testLogging {
+        /**
+         * If a test fails, build a message about the failure and store it in the output cache
+         * so we can dump any failed tests at the bottom so that they're easier to find.
+         */
+        afterTest { TestDescriptor td, TestResult tr ->
+            if (tr.resultType == TestResult.ResultType.FAILURE) {
+                outputCache.add("${td.className} > ${td.name} ${tr.resultType}")
+                tr.exception.stackTrace.each { StackTraceElement element ->
+                    if (element.className == td.className) {
+                        outputCache.add("\t${tr.exception.class.getName()} at ${element.fileName}:${element.lineNumber}")
+                    }
+                }
+                outputCache.add("\t${tr.exception.message}")
+            }
+        }
+
+        /**
+         * Print the overall test results for our own curiosity to see test counts, as well as any
+         * failed tests.
+         */
+        afterSuite { TestDescriptor desc, TestResult result ->
+            if (!desc.parent) { // will match the outermost suite
+                println "Results: ${result.resultType} (${result.testCount} tests, ${result.successfulTestCount} successes, ${result.failedTestCount} failures, ${result.skippedTestCount} skipped)"
+
+                if (result.resultType == TestResult.ResultType.FAILURE) {
+                    println()
+                    println("Failed Tests")
+                    println("---")
+                    outputCache.each {
+                        println(it)
+                        println()
+                    }
+                }
+            }
+        }
+    }
+}

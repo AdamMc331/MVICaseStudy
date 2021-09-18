@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.adammcneilly.mvicasestudy.ui.preferences.PreferenceListScreenTest" tests="9" failures="0" errors="0" skipped="0" time="9.312" timestamp="2021-07-06T01:15:07" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_3a_API_30_x86(AVD) - 11" />
+    <property name="flavor" value="" />
+    <property name="project" value="app" />
+  </properties>
+  <testcase name="hideLoader" classname="com.adammcneilly.mvicasestudy.ui.preferences.PreferenceListScreenTest" time="1.905" />
+  <testcase name="showLoader" classname="com.adammcneilly.mvicasestudy.ui.preferences.PreferenceListScreenTest" time="0.491" />
+  <testcase name="renderDeveloperPreferences" classname="com.adammcneilly.mvicasestudy.ui.preferences.PreferenceListTest" time="0.723" />
+  <testcase name="displayPreference" classname="com.adammcneilly.mvicasestudy.ui.preferences.RadioPreferenceRowTest" time="1.268" />
+  <testcase name="clickOption" classname="com.adammcneilly.mvicasestudy.ui.preferences.RadioPreferenceRowTest" time="0.466" />
+  <testcase name="sliderValueChanged" classname="com.adammcneilly.mvicasestudy.ui.preferences.SliderPreferenceRowTest" time="1.061" />
+  <testcase name="displayPreference" classname="com.adammcneilly.mvicasestudy.ui.preferences.SliderPreferenceRowTest" time="1.113" />
+  <testcase name="displayPreference" classname="com.adammcneilly.mvicasestudy.ui.preferences.SwitchPreferenceRowTest" time="1.113" />
+  <testcase name="toggleSwitch" classname="com.adammcneilly.mvicasestudy.ui.preferences.SwitchPreferenceRowTest" time="1.138" />
+</testsuite>
